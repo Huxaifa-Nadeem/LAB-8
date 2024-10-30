@@ -8,10 +8,10 @@ int main()
     int jump = 1;
     int count = 0;
 
-    printf("Calibrating: \n");
+    
     while (count != 3)
     {
-        printf("%d %d %d\n", i, j, jump);
+        
         grid[i][j] = '*';
 
         if (up)
